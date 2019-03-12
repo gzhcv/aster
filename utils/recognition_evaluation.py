@@ -59,7 +59,7 @@ class RecognitionEvaluation(object):
     #   recogition, groundtruth = incorrect_pairs[i]
     #   print('{} => {}'.format(groundtruth, recogition))
     # print('**********************************')
-    case_insensitive_accuracy = num_correct / (num_correct + num_incorrect)
+    case_insensitive_accuracy = 1.0 * num_correct / (num_correct + num_incorrect)
 
     metrics = {
       'WordAccuracy': case_insensitive_accuracy,
