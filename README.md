@@ -21,7 +21,7 @@ ASTER was developed and tested with **TensorFlow r1.4**. Higher versions may not
 ASTER requires [Protocol Buffers](https://github.com/google/protobuf) (version>=2.6). Besides, in Ubuntu 16.04:
 ```
 sudo apt install cmake libcupti-dev
-pip3 install --user protobuf tqdm numpy editdistance
+pip3 install --user protobuf tqdm numpy edit_distance
 ```
 
 ## Installation
